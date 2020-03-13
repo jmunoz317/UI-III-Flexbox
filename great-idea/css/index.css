@@ -187,16 +187,20 @@ h1, h2, h3, h4, h5 {
 
 }
 button{
-	padding: 14px 55px;
+	padding: 12px 48px;
 	background-color: white;
-	color: grey;
-	border: 1px solid grey;
+	color: black;
+	border: 1px solid black;
+	/* justify-content: flex-start; */
+	margin-top: 12px;
+	border-radius: 8px;
 	
 }
 
 .img2{
 	display: flex;
-	justify-content: space-evenly;	
+	justify-content: space-evenly;
+		
 }
 .two{
 	display: flex;
@@ -240,6 +244,7 @@ button{
 }
 .middle-img{
 	width: 100%;
+	margin-bottom: 35px;
 }
 .four{
 	width: 100%;
@@ -282,7 +287,7 @@ button{
 }
 /* ******************************************************New project************************* */
 *{
-	border: 2px solid red;
+	
 	box-sizing: border-box;
 }
 
@@ -297,4 +302,28 @@ button{
 	padding: 15px;
 	background-color: gainsboro;
 	margin-bottom: 20px;
+	border: 1px solid black;
+}
+.srv p{
+	margin-bottom: 35px;
+	width: 40%;
+}
+.facts h2{
+	margin-top: 20px;
+}
+.facts{
+	display: flex;
+	
+
+}
+.srv, .list{
+	display: flex;
+	flex-direction: column;
+}
+.services-info-img{
+	width: 177%;
+	padding-right: 185px;
+}
+.srv, .last-img{
+	justify-content: space-evenly;
 }
