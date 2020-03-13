@@ -64,3 +64,217 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/* *{
+	border: 2px solid red;
+	margin: auto; */
+/* } */
+#wrapper{
+	width:1000px;
+	margin: 0 auto;
+	
+
+}
+#navbar{
+	width: 100%;
+	margin-top: 47px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+} 
+#navbar a{
+	padding:-2%;
+	margin: 3%;
+	text-decoration: none;
+}
+
+#img1{
+
+	justify-content: flex-end;
+}
+.one{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+/* .one h1{
+	display: inline-block;
+	/* width: 500px;
+	height: 300px; */
+	/* margin-left: 150px;
+	font-size: 40px;
+	
+} */ 
+.one .left h1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center; 
+	font-size: 75px;
+	/* padding-left: 150px;
+	margin-top: 160px;
+	text-align: center; 
+	padding-left: 20px;
+	margin-left: 10%; */
+	
+
+}
+button{
+	padding: 14px 55px;
+	background-color: white;
+	color: grey;
+	border: 1px solid grey;
+	
+}
+
+.img2{
+	display: flex;
+	justify-content: space-evenly;	
+}
+.two{
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 30px;
+	
+}
+.left,.right{
+	/* width: 40%; */
+	/* height: 50px; */
+	flex-direction:row;
+	/* margin-top: 5%; */
+	font-size: 17px;
+	/* vertical-align: top; */
+	
+    
+}
+.left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bxs2{
+	/* width: 45%;  */
+	margin-right: 9%; 
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+	
+}
+.bxs2:last-child{ /*stops space on right side*/ 
+	margin-right: 0; 
+
+}
+
+.img3{
+	width: 100%;
+	display: flex;
+	margin: 20px 0;
+}
+.four{
+	width: 100%;
+	margin-bottom: 80px;
+	display: flex;
+	/* margin: 10px 10px; */
+	/* border-bottom: 1px solid black;
+	padding-bottom: 3%; */
+	justify-content: space-evenly;
+}
+.bxs3{
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 2%;
+	/* width: 31%; 
+	margin-right: 2%; 
+	/* display: inline-block; */
+	
+	
+}
+.bxs3:last-child{ /*stops space on right side*/ 
+	margin-right: 0; 
+
+}
+.five{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: space-between;
+	margin-top: 20px;
+	/* width: 100%;
+	height: 50px; */
+	/* margin-top: 0px;  */
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	margin-top:80px;
+	
+}
